@@ -10,6 +10,20 @@ If Prolog Is Installed Or Prolog IDE Used, See Sample Input And Run Program
 
 ----------------------------------------------------------------------------------
 
+TABLE
+|------------------------------------------|
+| NDFA     States     a     b   |  Epsilon |
+|------------------------------------------|
+|	   0       |  0,1  |  0   |    2   |
+|	   1       |  []   |  2   |    []  |
+|	   2       |  []   |  []  |    []  |
+|------------------------------------------|
+
+Initial State  : 0
+Accepting State: 2
+
+----------------------------------------------------------------------------------
+
 To Use On Linux Based Systems
 
 1. Open Terminal [Ctrl + Alt + T]
@@ -67,8 +81,8 @@ false.
 
 /* 
 Program Parses Through Non-Deterministic Finite Automata [NFA or NDFA]
-States Are 0,1,2
-Inputs Are a,b,Epsilon
+States Are [0,1,2]
+Inputs Are [a,b,Epsilon]
 'lambda' Represents Epsilon Input
 */
 
